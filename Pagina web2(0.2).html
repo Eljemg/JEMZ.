@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JEMZ - Página Oficial</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to right, #141e30, #243b55);
+            color: white;
+            text-align: center;
+            overflow-x: hidden;
+            scroll-behavior: smooth;
+        }
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            padding: 10px 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+            z-index: 1000;
+        }
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #f2a365;
+        }
+        section {
+            padding: 100px 20px 50px;
+            min-height: 100vh;
+        }
+        .inicio {
+            background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVKrNEU31Mfv1euVJaTKmY7qJYIPXdaDvq4g&s') no-repeat center center/cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+            height: 100vh;
+        }
+        .inicio h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+        .inicio p {
+            font-size: 1.5rem;
+            margin-bottom: 40px;
+        }
+        .botones a {
+            display: inline-block;
+            margin: 10px;
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            background: #2575fc;
+            border-radius: 50px;
+            color: white;
+            text-decoration: none;
+            transition: transform 0.3s, background 0.3s;
+        }
+        .botones a:hover {
+            transform: scale(1.1);
+            background: #f2a365;
+        }
+        .sobre-mi, .redes-sociales {
+            background: #1c1c1c;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        }
+        .sobre-mi h2, .sobre-mi p, .redes-sociales h2, .redes-sociales p {
+            margin: 20px 0;
+        }
+        .redes-sociales a {
+            display: inline-block;
+            margin: 10px;
+            padding: 15px 25px;
+            font-size: 1.2rem;
+            background: #2575fc;
+            border-radius: 50px;
+            color: white;
+            text-decoration: none;
+            transition: transform 0.3s, background 0.3s;
+        }
+        .redes-sociales a:hover {
+            transform: scale(1.1);
+            background: #f2a365;
+        }
+        footer {
+            background-color: #001f3f;
+            color: #bbb;
+            padding: 20px;
+            font-size: 0.9rem;
+        }
+        footer a {
+            color: #1c92d2;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#sobre-mi">Sobre Mí</a>
+        <a href="#redes-sociales">Mis Redes Sociales</a>
+    </nav>
+    <section id="inicio" class="inicio">
+        <h1>Bienvenido a JEMZ</h1>
+        <p>Para recibir ayuda sobre tecnología, programación o servidores, contáctame solo a través de Discord o Instagram.</p>
+        <div class="botones">
+            <a href="#sobre-mi">Sobre Mí</a>
+            <a href="#redes-sociales">Mis Redes Sociales</a>
+        </div>
+    </section>
+    <section id="sobre-mi" class="sobre-mi">
+        <h2>Sobre Mí</h2>
+        <p>Hola, soy Jemg, un apasionado por la tecnología, programación y la gestión de servidores de Discord y Minecraft.</p>
+        <p>En esta página te invito a seguir mis redes sociales para que puedas mantenerte actualizado sobre los temas que me apasionan.</p>
+        <p>Mi objetivo es compartir contenido útil y ayudar a quienes estén interesados en mejorar sus habilidades en estas áreas.</p>
+        <p><strong>Mi Discord:</strong> el_jemg</p>
+    </section>
+    <section id="redes-sociales" class="redes-sociales">
+        <h2>Mis Redes Sociales</h2>
+        <a href="https://www.tiktok.com/@jemg164" target="_blank">TikTok</a>
+        <a href="https://www.instagram.com/ez_jemg/" target="_blank">Instagram</a>
+        <a href="https://discord.com/" target="_blank">Discord</a>
+        <a href="https://x.com/El_Jemg" target="_blank">Twitter</a>
+    </section>
+    <footer>
+        <p>&copy; 2024 JEMZ. Todos los derechos reservados.</p>
+        <p><a href="#inicio">Regresar a Inicio</a></p>
+    </footer>
+</body>
+</html>
